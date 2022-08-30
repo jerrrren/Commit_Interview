@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 28 20:02:42 2022
+# Make data base, printed on Tue Aug 30 10:15:28 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\cheej\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\cheej\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\WINDOWS\System32
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -41,7 +41,7 @@ GOPATH = C:\Users\cheej\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_38780_GLDAHBAOEACQDHTF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16080_SIIDUKXTRMSJIKLP
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -89,7 +89,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 38780
+VSCODE_PID = 16080
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -271,6 +271,7 @@ postgres:
 # strcache performance: lookups = 29 / hit rate = 20%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Sun Aug 28 20:02:42 2022
+# Finished Make data base on Tue Aug 30 10: 
+15:28 2022
 
  

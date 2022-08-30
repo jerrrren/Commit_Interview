@@ -17,9 +17,15 @@ const useAuth = create((set) => ({
 
 
   updateToken:(accessToken) => {
+    if(refreshToken(accessToken)){
+      set({ tokens: getToken() });
+    }
+    else{
+      deleteToken();
+      set({ isAuth: getAuth() });
+      set({ uid: getUid() });
+    }
 
-    refreshToken(accessToken)
-    set({tokens:getToken()})
   },
   
 

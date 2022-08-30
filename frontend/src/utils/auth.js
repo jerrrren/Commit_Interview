@@ -21,9 +21,10 @@ export const refreshToken = (err) => {
       })
       .catch((err) => {
         console.log(err);
+        return false
       });
-    
   }
+  return true
 };
 
 export const getAuth = () => {

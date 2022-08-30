@@ -30,7 +30,7 @@ const UnVerifiedEmail = () => {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4 padding:0">
         <div className="container-fluid">
           <Link to={`/home`} className="navbar-brand">
-            IntroNus
+            Example.com
           </Link>
           <div>
             <ul className="navbar-nav me-auto mb-2 mb-md-0">

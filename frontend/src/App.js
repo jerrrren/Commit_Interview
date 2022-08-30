@@ -45,7 +45,6 @@ function App() {
             path="/home"
             element={<PrivateRoute children={<LoggedInHome />} />}
           />
-
           <Route
             path="/"
             element={
@@ -54,7 +53,6 @@ function App() {
               </PublicRoute>
             }
           />
-
           <Route
             path="/login"
             element={

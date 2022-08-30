@@ -88,7 +88,7 @@ func sendVerificationMessage() gin.HandlerFunc {
 		m.SetHeader("To", target_address)
 
 		// Set E-Mail subject
-		m.SetHeader("Subject", "Intronus email verification")
+		m.SetHeader("Subject", "Example.com email verification")
 
 		// Set E-Mail body. You can set plain text or html with text/html
 		m.SetBody("text/plain", "Please click the link below to verify your email\n"+"http://localhost:3000/verifyemail/"+token)
